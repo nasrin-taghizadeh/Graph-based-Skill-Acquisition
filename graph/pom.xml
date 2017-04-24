@@ -1,0 +1,80 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>sharif.ce.isl.rl</groupId>
+	<artifactId>graph-based</artifactId>
+	<version>0.0.1</version>
+	<packaging>jar</packaging>
+
+	<name>graph-based</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.jgrapht/jgrapht -->
+
+
+		<dependency>
+			<groupId>org.ejml</groupId>
+			<artifactId>all</artifactId>
+			<version>0.30</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/net.sf.jung/jung-graph-impl -->
+<dependency>
+    <groupId>net.sf.jung</groupId>
+    <artifactId>jung-graph-impl</artifactId>
+    <version>2.1.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/thirdparty/jgrapht-jdk1.6 -->
+<dependency>
+    <groupId>thirdparty</groupId>
+    <artifactId>jgrapht-jdk1.6</artifactId>
+    <version>0.8.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/net.sf.jung/jung-algorithms -->
+<dependency>
+    <groupId>net.sf.jung</groupId>
+    <artifactId>jung-algorithms</artifactId>
+    <version>2.0.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/net.sf.jung/jung-visualization -->
+<dependency>
+    <groupId>net.sf.jung</groupId>
+    <artifactId>jung-visualization</artifactId>
+    <version>2.0.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/net.sourceforge.collections/collections-generic -->
+<dependency>
+    <groupId>net.sourceforge.collections</groupId>
+    <artifactId>collections-generic</artifactId>
+    <version>4.01</version>
+</dependency>
+
+
+		<dependency>
+			<groupId>gov.nist.math</groupId>
+			<artifactId>jama</artifactId>
+			<version>1.0.2</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.jung</groupId>
+			<artifactId>jung-api</artifactId>
+			<version>2.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-math</artifactId>
+			<version>2.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.7.7</version>
+		</dependency>
+	</dependencies>
+</project>
